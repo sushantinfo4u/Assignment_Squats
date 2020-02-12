@@ -1,58 +1,66 @@
 package com.squats.assignment.Activity.API.Model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+import androidx.room.TypeConverters;
 
 import com.google.gson.annotations.SerializedName;
+import com.squats.assignment.Activity.DataTypeConvertrer;
 
-@Entity(tableName = "User_Data")
-public class PostDetails {
+import java.io.Serializable;
 
-    @ColumnInfo(name = "title")
+public class PostDetails implements Serializable {
+
+//    @ColumnInfo(name = "title")
     @SerializedName("title")
     private String title;
 
-    @ColumnInfo(name = "cuisine")
+//    @ColumnInfo(name = "cuisine")
     @SerializedName("cuisine")
     private String cuisine;
 
-    @ColumnInfo(name = "image_url")
+//    @ColumnInfo(name = "image_url")
     @SerializedName("image_url")
     private String image_url;
 
-    @ColumnInfo(name = "recipe_type")
+//    @ColumnInfo(name = "recipe_type")
     @SerializedName("recipe_type")
     private String recipe_type;
 
-    @ColumnInfo(name = "post_id")
+//    @ColumnInfo(name = "post_id")
     @SerializedName("post_id")
     private String post_id;
 
-    @ColumnInfo(name = "id")
+//    @ColumnInfo(name = "id")
     @SerializedName("id")
     private String id;
 
-    @ColumnInfo(name = "user_id")
+//    @ColumnInfo(name = "user_id")
     @SerializedName("user_id")
     private String user_id;
 
-    @ColumnInfo(name = "description")
+//    @ColumnInfo(name = "description")
     @SerializedName("description")
     private String description;
 
-    @ColumnInfo(name = "created_at")
+//    @ColumnInfo(name = "created_at")
     @SerializedName("created_at")
     private String created_at;
 
-    @ColumnInfo(name = "group_id")
+//    @ColumnInfo(name = "group_id")
     @SerializedName("group_id")
     private String group_id;
 
-    @ColumnInfo(name = "profile_picture")
+//    @ColumnInfo(name = "profile_picture")
     @SerializedName("profile_picture")
     private String profile_picture;
 
-    @ColumnInfo(name = "name")
+//    @ColumnInfo(name = "name")
     @SerializedName("name")
     private String name;
 
@@ -152,4 +160,5 @@ public class PostDetails {
     public void setName(String name) {
         this.name = name;
     }
+
 }

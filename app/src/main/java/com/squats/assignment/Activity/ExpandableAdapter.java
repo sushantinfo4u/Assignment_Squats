@@ -1,13 +1,17 @@
 package com.squats.assignment.Activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -57,6 +61,19 @@ public class ExpandableAdapter extends BaseExpandableListAdapter {
         TextView txtUserName = (TextView) convertView.findViewById(R.id.lblListItem);
         TextView txtDesc = (TextView) convertView.findViewById(R.id.txtDesc);
         CircleImageView profileImage =convertView.findViewById(R.id.imgeView);
+        RelativeLayout realtiveLayout=convertView.findViewById(R.id.realtiveLayout);
+
+        realtiveLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(_context,DetailScreenActivity.class);
+                intent.putExtra("DATA",postDetail);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                _context.startActivity(intent);
+            }
+        });
+
 
         Glide.with(_context).load(postDetail.getImage_url())
                 .thumbnail(0.5f)
@@ -117,6 +134,8 @@ public class ExpandableAdapter extends BaseExpandableListAdapter {
 
         return convertView;
     }
+
+
 
     @Override
     public boolean hasStableIds() {

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailScreenActivity">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:elevation="5dp"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/profileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/profileImage"
+                android:id="@+id/txtTitle"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:inputType="text"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtTitle"
+                android:id="@+id/txtCuisne"
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:inputType="textMultiLine"
+                android:maxLength="15"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/txtCuisne"
+                android:id="@+id/txtDesc"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

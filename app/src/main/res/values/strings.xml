@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">SQAUTS</string>
+    <string name="app_name">SQUATS</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="validateUser">Enter valid Username</string>
     <string name="validatePasswd">Enter valid password</string>
     <string name="home">Home</string>
+    <string name="detailScreen">Details</string>
 </resources>

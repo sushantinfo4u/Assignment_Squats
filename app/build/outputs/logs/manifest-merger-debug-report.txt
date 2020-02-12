@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.room:room-runtime:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/b0f4f77312bb5c88b913605d4bd74d11/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e71d59022806682985be2942fcbccbfb/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.material:material:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -47,29 +47,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /root/.gradle/caches/tran
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /root/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:4:5-66
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e71d59022806682985be2942fcbccbfb/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /root/.gradle/caches/transforms-2/files-2.1/e71d59022806682985be2942fcbccbfb/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -91,35 +91,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /root/.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /root/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.squats.assignment.Activity.MainActivity
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:12:9-68
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.squats.assignment.Activity.DetailScreenActivity
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:14:9-76
 	android:name
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:12:19-56
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:14:19-64
 activity#com.squats.assignment.Activity.HomeActivity
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:13:9-18:20
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:15:9-59
 	android:name
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:13:19-56
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:15:19-56
+activity#com.squats.assignment.Activity.MainActivity
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:16:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/AndroidManifest.xml

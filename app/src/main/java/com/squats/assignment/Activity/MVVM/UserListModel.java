@@ -8,10 +8,10 @@ import com.squats.assignment.Activity.API.Model.ServerResponse;
 public class UserListModel extends ViewModel {
 
     private MutableLiveData<ServerResponse> data;
-    private UserRepository movieModel;
+    private UserRepository userRepository;
 
     public UserListModel() {
-        movieModel = new UserRepository();
+        userRepository = new UserRepository();
     }
 
     public void init() {
@@ -20,7 +20,7 @@ public class UserListModel extends ViewModel {
             // we know the userId won't change
             return;
         }
-        data = movieModel.getApiResponse();
+        data = userRepository.getApiResponse();
     }
 
     public MutableLiveData<ServerResponse> getUserList() {

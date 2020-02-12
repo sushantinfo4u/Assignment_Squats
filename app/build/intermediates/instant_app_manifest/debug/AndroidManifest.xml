@@ -21,8 +21,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.squats.assignment.Activity.MainActivity" />
-        <activity android:name="com.squats.assignment.Activity.HomeActivity" >
+        <activity android:name="com.squats.assignment.Activity.DetailScreenActivity" />
+        <activity android:name="com.squats.assignment.Activity.HomeActivity" />
+        <activity android:name="com.squats.assignment.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -128,6 +128,10 @@
         "source": "/root/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/layout_activity_detail_screen.xml.flat",
+        "source": "/root/AndroidStudioProjects/Assignment_Sqauts/app/src/main/res/layout/activity_detail_screen.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/root/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
@@ -208,12 +212,12 @@
         "source": "/root/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
-        "source": "/root/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/root/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "/root/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/Assignment_Sqauts/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
